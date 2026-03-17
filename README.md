@@ -13,14 +13,10 @@ The analysis identifies common API vulnerabilities, including:
 
 Testing was performed manually using **Postman**.
 
----
-
 ## Scope
 - **Endpoints Tested:** `/users`, `/users/1`, `/posts`, `/posts/1`, `/posts?userId=1`, `/comments`, `/todos`  
 - **Tools Used:** Postman, Browser Developer Tools  
 - **Focus:** Data exposure, authentication, authorization, input validation, rate limiting  
-
----
 
 ## Key Findings
 - Sensitive data exposed without restrictions  
@@ -31,7 +27,6 @@ Testing was performed manually using **Postman**.
 
 **Risk Severity:** Medium (1–3), Low (4–5)  
 
----
 
 ## Recommendations
 - Enforce authentication and authorization  
